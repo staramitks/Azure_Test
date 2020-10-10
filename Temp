@@ -1,0 +1,34 @@
+# My Application+Env (test38) Specific Props 
+/AppManager_test38/config.myprop1:MyAZ Val1 for T38
+/AppManager_test38/config.myprop2:MyAZ Val2 for T38
+/AppManager_test38/config.myprop3:MyAZ Val3 for T38
+
+# My Application Specific Props - Irrespective of Envt.
+/AppManager/config.allEnvProp6:MyAZ Val6 for All
+/AppManager/config.allEnvProp4:MyAZ Val4 for All
+/AppManager/config.allEnvProp5:MyAZ Val5 for All
+
+
+#Common for all apps in index for test38 -  env specific
+/application_test38/config.dbname:MyDBUSerNameUAT
+/application_test38/config.dbpassword:T38Password
+/application_test38/config.ipsmode:test
+/application_test38/config.appmode:test
+/application_test38/config.smtphost:SMTP Host Test
+
+#Common for all apps in index - commonest of all 
+/application/config.smtpport:8080
+
+
+
+#Common for all apps in index in prod - In Lieu of /shared/
+/application_prod/config.dbname:MyDBUSerNameProd
+/application_prod/config.dbpassword:ProdPassword
+/application_prod/config.ipsmode:prod
+/application_prod/config.appmode:prod
+/application_prod/config.smtphost:SMTP Host Prod
+
+# My Application+Env(prod) Specific Props 
+/AppManager_prod/config.myprop1:MyAZ Val1 for PROD
+/AppManager_prod/config.myprop2:MyAZ Val2 for PROD
+/AppManager_prod/config.myprop3:MyAZ Val3 for PROD
